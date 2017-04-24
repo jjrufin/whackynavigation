@@ -1,5 +1,20 @@
+body {
+  background-color: #26547C;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+}
+li {
+    display:inline-block;
+}
+
+
 .clicked {
-  background-color: seagreen;
+  background-color: white;
   text-align: center;
 
 }

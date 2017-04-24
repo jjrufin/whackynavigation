@@ -21,6 +21,15 @@ $('#h1').click(function(){
   $(this).toggleClass('clicked');
 });
 
+$('button').click(function(){
+$('#h1').slideToggle();
+$('button').text('click me again');
+});
+
+
+
+
+
 
 
 
