@@ -12,7 +12,7 @@ $('li').click(function(){
 });
 
 $('li').click(function(){
-  $(this).text('Clicked');
+  $(this).append('<p>Clicked!</p>');
 
 });
 
