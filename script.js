@@ -8,12 +8,7 @@ $('li').hover(
 
 
 $('li').click(function(){
-  $(this).css('background-color', 'yellow');
-});
-
-$('li').click(function(){
-  $(this).append('<p>Clicked!</p>');
-
+  $(this).css('background-color', 'yellow').append('<p>Clicked!</p>');
 });
 
 
